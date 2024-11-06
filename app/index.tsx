@@ -2,16 +2,8 @@ import { Image, StyleSheet, Platform, Text, View } from 'react-native'
 
 export default function HomeScreen () {
     return (
-        <View style={styles.container}>
+        <View className="flex justify-center items-center">
             <Text>Hello World!</Text>
         </View>
     );
 }
-
-const styles = StyleSheet.create({
-    container: {
-        flex: 1,
-        alignItems: 'center',
-        justifyContent: 'center'
-    },
-});
